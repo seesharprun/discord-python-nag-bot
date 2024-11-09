@@ -17,9 +17,6 @@ Sample bot that sends a message at a configured interval
     RUN_MINUTE=00
     ```
 
-    > [!NOTE]
-    > In this example, the bot will run every morning at 8:00 AM in the EDT time zone.
-
 1. Install libraries
 
     ```shell
@@ -32,8 +29,8 @@ Sample bot that sends a message at a configured interval
     python app.py
     ```
 
-    > [!TIP]
-    > Use [Crontab Guru](https://crontab.guru/#*_*_*_*_*) to create a cron expression.
+> [!NOTE]
+> In this example, the bot will run every morning at 8:00 AM in the EDT time zone.
 
 ## Read more
 
